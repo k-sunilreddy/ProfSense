@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@theme {
+    --color-maintheme: #FD752C;
+}
+
+/* Custom hover for logout button */
+.logout-btn:hover {
+    background-color: #f56565 !important; /* Tailwind's red-500 */
+    color: white !important;
+}

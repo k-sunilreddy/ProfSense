@@ -1,0 +1,28 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Composer dependencies
+vendor/
+
+# Logs
+*.log
+logs/
+error_log
+
+# Local uploads / generated files
+uploads/
+storage/
+cache/
+
+# IDE & OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# XAMPP/Local server specific
+*.sql
+*.bak
+*.tmp
